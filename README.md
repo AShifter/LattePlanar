@@ -4,7 +4,7 @@ An open-source Planar Magnetic tweeter that you can build yourself using readily
 **NOTE!** The current revision, 0.9, has some issues and isn't something I would consider a 'complete' product. Prepare for things not lining up, really tight tolerances, and lots of binder clips/glue. I hope to release rev. 1.0 soon to fix these issues but for now, just have fun!
 
 ## The Concept
-A Planar Magnetic driver is arguably simpler than the dynamic drivers used in most loudspeakers - a small coil of wire (representing the target impedance of the driver) is adhered to a thin film, and an isodynamic magnetic field (The force which makes like poles repel) spans between each face of the membrane. This is akin to the design used by Magnepan, and potentially dates all the way back to 1911 with Edwin S. Pridham and Peter L. Jensen's 'moving-coil loudspeaker', which they called 'Magnavox' (yes, that Magnavox). *This potentially makes the Planar Magnetic concept as old as one of the (most famous handguns in American history.)[https://en.wikipedia.org/wiki/M1911_pistol]*
+A Planar Magnetic driver is arguably simpler than the dynamic drivers used in most loudspeakers - a small coil of wire (representing the target impedance of the driver) is adhered to a thin film, and an isodynamic magnetic field (The force which makes like poles repel) spans between each face of the membrane. This is akin to the design used by Magnepan, and potentially dates all the way back to 1911 with Edwin S. Pridham and Peter L. Jensen's 'moving-coil loudspeaker', which they called 'Magnavox' (yes, that Magnavox). *This potentially makes the Planar Magnetic concept as old as one of the [most famous handguns in American history.](https://en.wikipedia.org/wiki/M1911_pistol)*
 
 ## Materials Needed
 - 3D Printer (project was made entirely on an Ender 3, great machine and highly recommended!)
@@ -31,7 +31,7 @@ Cut the foil. This video outlines the process of putting the drag knife on your 
 
 LattePlanarCoilDesign is included as an editable coil with multiple paths and a reference for the frame dimensions if you want to make your own changes.
 
-Generate Gcode from the LattePlanarCoilPath.svg file. You can do this using the Gcodetools included with Inkscape if you have it installed, or use an online tool like (JSCut)[http://jscut.org/].
+Generate Gcode from the LattePlanarCoilPath.svg file. You can do this using the Gcodetools included with Inkscape if you have it installed, or use an online tool like [JSCut](http://jscut.org/).
 
 If you have a Creality Ender 3 or Ender 3 Pro 3D printer, the LattePlanarCoilEnder3Sliced.gcode file is included which contains a good, working path to cut the coil. Simply put it on your SD card and run it as a print, and the machine will begin running. I recommend lightly scoring your wasteboard/cricut board with this file before you glue the tape on so you can get an idea as to where the cut will happen.
 
